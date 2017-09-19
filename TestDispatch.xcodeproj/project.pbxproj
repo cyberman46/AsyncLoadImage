@@ -13,6 +13,7 @@
 		9054ABF41F7026FC007C05AF /* TestDispatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9054ABF21F7026FC007C05AF /* TestDispatch.xcdatamodeld */; };
 		9054ABF61F7026FC007C05AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9054ABF51F7026FC007C05AF /* Assets.xcassets */; };
 		9054ABF91F7026FC007C05AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9054ABF71F7026FC007C05AF /* LaunchScreen.storyboard */; };
+		90BFAC4A1F70A6A5004F78FE /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BFAC491F70A6A5004F78FE /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9054ABF51F7026FC007C05AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9054ABF81F7026FC007C05AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9054ABFA1F7026FC007C05AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BFAC491F70A6A5004F78FE /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9054ABF71F7026FC007C05AF /* LaunchScreen.storyboard */,
 				9054ABFA1F7026FC007C05AF /* Info.plist */,
 				9054ABF21F7026FC007C05AF /* TestDispatch.xcdatamodeld */,
+				90BFAC491F70A6A5004F78FE /* ImageCollectionViewCell.swift */,
 			);
 			path = TestDispatch;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				9054ABF41F7026FC007C05AF /* TestDispatch.xcdatamodeld in Sources */,
 				9054ABEE1F7026FC007C05AF /* ViewController.swift in Sources */,
+				90BFAC4A1F70A6A5004F78FE /* ImageCollectionViewCell.swift in Sources */,
 				9054ABEC1F7026FC007C05AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				9054ABFF1F7026FC007C05AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
